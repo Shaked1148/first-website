@@ -255,6 +255,22 @@ nav ul li a:hover {
     gap: 20px;                 
 }
 
+.pre-alpha {
+    position: fixed;
+    top: 15px;
+    right: 0px;
+    left: 15px;
+    font-size: 15px;          /* BIG WORDS */
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #686464;
+    padding: 5px 5px;
+    border-radius: 8px;
+    z-index: 9999;
+    text-transform: uppercase;
+}
+
+
 
 
 
