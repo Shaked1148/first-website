@@ -188,8 +188,8 @@ nav ul li a:hover {
 }
 
 .homevideos iframe {
-    width: 250px;            
-    height: 140px;           
+    width: 270px;            
+    height: 150px;           
     border-radius: 15px;     
     border: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
@@ -269,6 +269,7 @@ nav ul li a:hover {
     z-index: 9999;
     text-transform: uppercase;
 }
+
 
 
 
