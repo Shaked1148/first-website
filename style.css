@@ -260,7 +260,7 @@ nav ul li a:hover {
     top: 15px;
     right: 0px;
     left: 15px;
-    font-size: 15px;          /* BIG WORDS */
+    font-size: 15px;          
     font-weight: 900;
     letter-spacing: 2px;
     color: #686464;
@@ -269,6 +269,7 @@ nav ul li a:hover {
     z-index: 9999;
     text-transform: uppercase;
 }
+
 
 
 
