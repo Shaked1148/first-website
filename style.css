@@ -10,7 +10,7 @@
 html, body {
    background-color: #0c192c; 
    min-height: 100vh;
-   background: url(images/Gemini_Generated_Image_gsd7nggsd7nggsd7.png);
+   background: url(Gemini_Generated_Image_gsd7nggsd7nggsd7.png);
    background-size: cover;        
    background-position: center;   
    background-repeat: no-repeat;  
@@ -290,6 +290,7 @@ nav ul li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 
