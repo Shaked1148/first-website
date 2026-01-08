@@ -256,6 +256,7 @@ nav ul li a:hover {
 
 .homevideos iframe:hover {
     transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 
@@ -290,6 +291,7 @@ nav ul li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 
