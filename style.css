@@ -10,12 +10,33 @@
 html, body {
    background-color: #0c192c; 
    min-height: 100vh;
-   background: url(Gemini_Generated_Image_gsd7nggsd7nggsd7.png);
+   background: url(images/Gemini_Generated_Image_gsd7nggsd7nggsd7.png);
    background-size: cover;        
    background-position: center;   
    background-repeat: no-repeat;  
    background-attachment: fixed;
+   
 }
+
+
+
+.glass-effect {
+  background: rgba(248, 249, 250, 0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    0 25px 45px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
 
 
 .container {
@@ -66,11 +87,15 @@ nav {
     width: 100%;
     text-align: center;
     z-index: 1000;
-    padding: 15px 0; 
+    padding: 10px 0; 
     background: rgba(0, 18, 30, 0.7); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-family: 'Archivo Black', sans-serif;
+   
+    
+    
+    
 }
 
 nav ul {
@@ -224,6 +249,8 @@ nav ul li a:hover {
 
 
 
+
+
 .top-bar {
   position: fixed;
   top: 0;
@@ -240,7 +267,7 @@ nav ul li a:hover {
 
 .logo {
   position: fixed;
-  top: 20px;
+  top: 18px;
   left: 350px;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -251,11 +278,6 @@ nav ul li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
-
-
-
 
 
 
