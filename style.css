@@ -240,7 +240,7 @@ nav ul li a:hover {
     grid-column: 1 / -1;   
     justify-self: start;    
     font-size: 2em;         
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #fff;            
     text-shadow: 1px 1px 3px rgba(0,0,0,0.7); 
 }
@@ -257,6 +257,7 @@ nav ul li a:hover {
 .homevideos iframe:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+
 }
 
 
@@ -291,6 +292,7 @@ nav ul li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 
@@ -331,7 +333,6 @@ nav ul li a:hover {
     margin: 170px auto 40px auto;  
   }
 }
-
 
 
 
