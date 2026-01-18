@@ -353,6 +353,92 @@ html, body {
 
 
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px; 
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 135px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 50px; 
+}
+
+
+.social-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  width: 250px; 
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.05); 
+  transition: all 0.3s;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.social-link img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.social-link:hover {
+  box-shadow: 0 4px px rgba(0, 0, 0, 0.4);
+}
+
+
+.social-link.youtube:hover {
+  background-color: #ff00005e;
+}
+
+.social-link.twitch:hover {
+  background-color: #673ab770;  
+}
+
+.social-link.instagram:hover {
+  background-color: #e1306b70;
+}
+
+.social-link.tiktok:hover {
+  background-color: #69C9D070;
+}
+
+.social-link.discord:hover {
+  background-color: #5865f270;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
