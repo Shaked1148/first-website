@@ -335,10 +335,17 @@ nav ul li a:hover {
 }
 
 
-.no-scroll {
+html,
+body {
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  height: 100vh;
+  height: 100%;
+}
+
+.no-scroll {
   width: 100vw;
+  height: 100vh;
 }
 
 
