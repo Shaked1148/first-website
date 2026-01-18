@@ -10,7 +10,7 @@
 html, body {
    background-color: #0c192c; 
    min-height: 100vh;
-   background: url(Gemini_Generated_Image_nf6i1rnf6i1rnf6i.png);
+   background: url(spacelandbackground.png);
    background-size: cover;        
    background-position: center;   
    background-repeat: no-repeat;  
@@ -429,6 +429,7 @@ html, body {
 .social-link.discord:hover {
   background-color: #5865f270;
 }
+
 
 
 
