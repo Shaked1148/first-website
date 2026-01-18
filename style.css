@@ -353,6 +353,8 @@ html, body {
 
 
 
+
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -427,6 +429,7 @@ html, body {
 .social-link.discord:hover {
   background-color: #5865f270;
 }
+
 
 
 
