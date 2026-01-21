@@ -1,23 +1,30 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-attachment: fixed;
     background-size: cover;
+    
 }
-
 
 html, body {
    background-color: #0c192c; 
-   min-height: 100vh;
-   background: url(spacelandbackground.png);
+   background: url(Gemini_Generated_Image_nf6i1rnf6i1rnf6i.png);
    background-size: cover;        
    background-position: center;   
    background-repeat: no-repeat;  
    background-attachment: fixed;
-   
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   min-height: 100%;
 }
 
+
+
+/* FEATURED GAMES */
 
 
 .cards-row {
@@ -31,7 +38,6 @@ html, body {
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
-
 
 .card {
   width: 320px;
@@ -69,7 +75,6 @@ html, body {
 }
 
 
-
 .card-text {
   margin-top: 8px;
   font-weight: 700;
@@ -77,28 +82,28 @@ html, body {
 }
 
 
+
 h1 {
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
   font-family: 'Archivo Black', sans-serif;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: -2px;
-
-}
-
-
-.container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: visible; 
 }
 
 
 
+
+
+
+
+
+
+
+/* NAVBAR */
 
 
 nav {
@@ -119,26 +124,27 @@ nav {
 
 
 
-
-
 nav ul li a {
     text-decoration: none;
     color: #dbdbdb;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px 15px;        
+    padding:  10px 15px;        
     display: inline-block;      
     line-height: normal;        
     transition: all 0.3s ease;
     border-radius: 5px;
 }
 
+
+
 .nav-left {
   position: absolute;
   top: 20px;          
   left: 350px;  
-  
 }
+
+
 
 .nav-center {
   display: flex;
@@ -146,7 +152,6 @@ nav ul li a {
   gap: 20px; 
   margin: 0;
   padding: 0;
-  
 }
 
 
@@ -176,78 +181,13 @@ nav ul li a {
 }
 
 
-.nav-center-sidebar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background: rgba(0, 18, 30, 0.7);
-  display: fixed;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  
-}
-
-.nav-center-sidebar li{
-  width: 100%;
-}
-.nav-center-sidebar a {
-  width: 100%;
-}
 
 
 
-.about-section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(194, 193, 193);
-    max-width: 700px;
-    padding: 50px;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-.about-section h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-.about-section p {
-    font-size: 18px;
-}
 
 
-.videotext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(194, 193, 193);
-    max-width: 700px;
-    padding: 150px;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-}
 
-.videotext h1 {
-    font-size: 34px;
-    margin-bottom: 15px;
-}
-
-.videotext p {
-    font-size: 18px;
-}
+/* VIDEOS */
 
 .videos {
     display: grid;
@@ -284,7 +224,7 @@ nav ul li a {
 
 }
 
-
+/* TWITCH LIVE STREAM */
 
 
 #twitch-embed {
@@ -307,17 +247,8 @@ nav ul li a {
 }
 
 
-.no-scroll {
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-}
 
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
+/* SOCIALS */
 
 
 
@@ -395,23 +326,6 @@ html, body {
 .social-link.discord:hover {
   background-color: #5865f270;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
