@@ -79,6 +79,9 @@ html, body {
   margin-top: 8px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-family: sans-serif;
 }
 
 
@@ -93,11 +96,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: -2px;
 }
-
-
-
-
-
 
 
 
@@ -123,7 +121,6 @@ nav {
 }
 
 
-
 nav ul li a {
     text-decoration: none;
     color: #dbdbdb;
@@ -138,14 +135,6 @@ nav ul li a {
 
 
 
-.nav-left {
-  position: absolute;
-  top: 20px;          
-  left: 350px;  
-}
-
-
-
 .nav-center {
   display: flex;
   list-style: none;
@@ -154,6 +143,16 @@ nav ul li a {
   padding: 0;
 }
 
+
+.nav-center a:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* BLASTXGT LOGO */
 
 .nav-left a {
  position: fixed;
@@ -169,20 +168,14 @@ nav ul li a {
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   transition: all 0.3s ease;
+  transform: skewX(-15deg);
 }
 
-
-.nav-center a:hover {
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+.nav-left {
+  position: absolute;
+  top: 20px;          
+  left: 350px;  
 }
-
-
-
-
 
 
 
@@ -326,6 +319,7 @@ nav ul li a {
 .social-link.discord:hover {
   background-color: #5865f270;
 }
+
 
 
 
